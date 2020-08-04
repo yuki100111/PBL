@@ -1,0 +1,42 @@
+/* common */
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  background-color: white;
+  color: #111;
+  font-weight: lighter;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.appear {
+  opacity: 1 !important;
+}
+
+.remove {
+  display: none;
+}
+
+/* small screen */
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* medium screen */
+@media (min-width: 600px) {
+  .container {
+    width: 92%;
+  }
+}
+
+/* large screen */
+@media (min-width: 800px) {
+  .container {
+    width: 85%;
+  }
+}
